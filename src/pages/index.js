@@ -8,7 +8,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     
     <Masonry className="showcase">
-      <div className="arteck_catalogue">
+      <div className="arteck__catalogue">
         <h1>Voici nos catalogues</h1>
         <br>
       </div>
