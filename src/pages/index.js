@@ -6,8 +6,9 @@ import Layout from "../components/layout"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <div><h1>Hello worm!</h1></div>
+    
     <Masonry className="showcase">
+      <div><h1>Hello worm!Hello worm!!!!!!!!!!!!!!!!</h1></div>
       {data.allDatoCmsWork.edges.map(({ node: work }) => (
         <div key={work.id} className="showcase__item">
           <figure className="card">
