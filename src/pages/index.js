@@ -5,6 +5,7 @@ import Img from 'gatsby-image'
 import Layout from "../components/layout"
 
 const IndexPage = ({ data }) => (
+  <div><h1>Hello worm!</h1></div>
   <Layout>
     <Masonry className="showcase">
       {data.allDatoCmsWork.edges.map(({ node: work }) => (
