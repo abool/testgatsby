@@ -8,7 +8,10 @@ const IndexPage = ({ data }) => (
   <Layout>
     
     <Masonry className="showcase">
-      <div><h1>Hello worm!Hello worm!!!!!!!!!!!!!!!!</h1></div>
+      <div className="arteck_catalogue">
+        <h1>Voici nos catalogues</h1>
+        <br>
+      </div>
       {data.allDatoCmsWork.edges.map(({ node: work }) => (
         <div key={work.id} className="showcase__item">
           <figure className="card">
