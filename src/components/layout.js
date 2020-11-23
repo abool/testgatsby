@@ -52,6 +52,7 @@ const TemplateWrapper = ({ children }) => {
           <div className="container__sidebar">
             <div className="sidebar">
               <h1>ARtest!!!!!!</h1>
+              <img src="https://www.datocms-assets.com/37851/1606150238-logo.svg" alt="Arteck">
               <h6 className="sidebar__title">
                 <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
               </h6>
