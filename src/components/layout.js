@@ -52,7 +52,11 @@ const TemplateWrapper = ({ children }) => {
           <div className="container__sidebar">
             <div className="sidebar">
               <h1>ARtest!!!!!!</h1>
-              <img src="https://www.datocms-assets.com/37851/1606150238-logo.svg" alt="Arteck">
+              <p>Arteck vous accompagne dans vos réalisations de mobilier urbain, signalisation standard et spécifique, accessoires sécurité et hygiène.
+
+Une large gamme de produits sélectionnés pour leur qualité de fabrication, de durabilité et de juste rapport qualité-prix.
+
+Avec nos conseils, des produits performants et appropriés. Avec notre équipe de pose, la réussite de vos réalisations.</p>
               <h6 className="sidebar__title">
                 <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
               </h6>
