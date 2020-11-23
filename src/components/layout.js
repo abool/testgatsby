@@ -88,6 +88,11 @@ const TemplateWrapper = ({ children }) => {
             </div>
           </div>
           <div className="container__body">
+            <div>
+              <h1>
+                Voici nos catalogues
+              </h1>
+            </div>
             <div className="container__mobile-header">
               <div className="mobile-header">
                 <div className="mobile-header__menu">
