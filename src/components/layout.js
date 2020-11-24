@@ -59,7 +59,7 @@ const TemplateWrapper = ({ children }) => {
               Une large gamme de produits sélectionnés pour leur qualité de fabrication, de durabilité et de juste rapport qualité-prix.<br/>
               Avec nos conseils, des produits performants et appropriés. Avec notre équipe de pose, la réussite de vos réalisations.</p>
               <h6 className="sidebar__title">
-                <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
+                <Link to="/">Arteck aménagement</Link>
               </h6>
               <div
                 className="sidebar__intro"
@@ -76,18 +76,7 @@ const TemplateWrapper = ({ children }) => {
                   <Link to="/about">About</Link>
                 </li>
               </ul>
-              <p className="sidebar__social">
-                {data.allDatoCmsSocialProfile.edges.map(({ node: profile }) => (
-                  <a
-                    key={profile.profileType}
-                    href={profile.url}
-                    target="blank"
-                    className={`social social--${profile.profileType.toLowerCase()}`}
-                  >
-                    {" "}
-                  </a>
-                ))}
-              </p>
+              
               <div className="sidebar__copyright">
                 {data.datoCmsHome.copyright}
               </div>
