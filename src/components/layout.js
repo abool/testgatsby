@@ -8,7 +8,7 @@ import { HelmetDatoCms } from "gatsby-source-datocms";
 
 import "../styles/index.sass";
 
-import logo from 'logo.svg'
+import logo from '../components/logo.svg'
 
 const TemplateWrapper = ({ children }) => {
   const [showMenu, setShowMenu] = useState(false);
