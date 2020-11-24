@@ -58,6 +58,7 @@ const TemplateWrapper = ({ children }) => {
               <p>Arteck vous accompagne dans vos réalisations de mobilier urbain, signalisation standard et spécifique, accessoires sécurité et hygiène.<br/>
               Une large gamme de produits sélectionnés pour leur qualité de fabrication, de durabilité et de juste rapport qualité-prix.<br/>
               Avec nos conseils, des produits performants et appropriés. Avec notre équipe de pose, la réussite de vos réalisations.</p>
+              <br/><br/>
               <h6 className="sidebar__title">
                 <Link to="/">Arteck aménagement</Link>
               </h6>
