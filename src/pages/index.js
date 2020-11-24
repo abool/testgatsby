@@ -12,7 +12,9 @@ const IndexPage = ({ data }) => (
       {data.allDatoCmsWork.edges.map(({ node: work }) => (
         <div key={work.id} className="showcase__item">
           <figure className="card">
-            <Link to={`/works/${work.slug}`} className="card__image">
+            <!--<Link to={`/works/${work.slug}`} className="card__image">-->
+            <Link to=https://www.datocms-assets.com/37851/1606237364-plaquettes-salles-a-louer-cci-07-2020-light-2.pdf className="card__image">
+
               <Img fluid={work.coverImage.fluid} />
             </Link>
             <figcaption className="card__caption">
