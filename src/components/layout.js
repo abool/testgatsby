@@ -53,9 +53,11 @@ const TemplateWrapper = ({ children }) => {
           />
           <div className="container__sidebar">
             <div className="sidebar">
-              <h1>ARtest!!!!!!</h1>
-              <img src={logo} alt="Artest" style={{ width: '88px' }} />
-              <p>Arteck vous accompagne dans vos réalisations de mobilier urbain, signalisation standard et spécifique, accessoires sécurité et hygiène. Une large gamme de produits sélectionnés pour leur qualité de fabrication, de durabilité et de juste rapport qualité-prix. Avec nos conseils, des produits performants et appropriés. Avec notre équipe de pose, la réussite de vos réalisations.</p>
+              <img src={logo} alt="Arteck Aménaement"  />
+              <h2>Arteck aménagement</h2>
+              <p>Arteck vous accompagne dans vos réalisations de mobilier urbain, signalisation standard et spécifique, accessoires sécurité et hygiène.<br/>
+              Une large gamme de produits sélectionnés pour leur qualité de fabrication, de durabilité et de juste rapport qualité-prix.<br/>
+              Avec nos conseils, des produits performants et appropriés. Avec notre équipe de pose, la réussite de vos réalisations.</p>
               <h6 className="sidebar__title">
                 <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
               </h6>
