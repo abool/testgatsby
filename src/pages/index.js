@@ -3,6 +3,8 @@ import { Link, graphql } from 'gatsby'
 import Masonry from 'react-masonry-component'
 import Img from 'gatsby-image'
 import Layout from "../components/layout"
+import pdffile from "https://www.datocms-assets.com/37851/1606237364-plaquettes-salles-a-louer-cci-07-2020-light-2.pdf"
+
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -12,9 +14,9 @@ const IndexPage = ({ data }) => (
       {data.allDatoCmsWork.edges.map(({ node: work }) => (
         <div key={work.id} className="showcase__item">
           <figure className="card">
-            <Link to={'https://www.datocms-assets.com/37851/1606237364-plaquettes-salles-a-louer-cci-07-2020-light-2.pdf'} className="card__image">
+            <a href={pdffile} className="card__image">
               <Img fluid={work.coverImage.fluid} />
-            </Link>
+            </a>
             <figcaption className="card__caption">
               <h6 className="card__title">
                 <Link to={`/works/${work.slug}`}>{work.title}</Link>
